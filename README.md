@@ -7,7 +7,7 @@
 - **개발 기간**: 2025.01.06 ~ 2025.02.05
 - **팀 구성**: 5인 (기획, 개발, 디자인 등)
 
-## Tech: Unity, C#, Photon PUN
+**Tech: Unity, C#, Photon PUN**
 
 ## 개발 목적
 - Photon PUN 기반 멀티플레이 네트워크 시스템 구현

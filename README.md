@@ -78,8 +78,8 @@ graph TB
 <br>
 
 ## 🔄 게임 플로우
+<div style="width: 60%">
 
-%%{init: {'theme': 'default', 'flowchart': {'nodeSpacing': 30, 'rankSpacing': 40}}}%%
 ```mermaid
 flowchart TD
     A([앱 시작]) --> B
@@ -105,7 +105,7 @@ flowchart TD
 
     H(["🏁 결승선 도착\n완주 타임 기록 저장"])
 ```
-
+</div>
 <br>
 
 ## 👤 담당 역할

@@ -78,7 +78,7 @@ graph TB
 <br>
 
 ## 🔄 게임 플로우
-<div style="width: 60%">
+<div style="width: 40%">
 
 ```mermaid
 flowchart TD

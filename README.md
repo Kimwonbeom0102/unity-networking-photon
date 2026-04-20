@@ -79,6 +79,7 @@ graph TB
 
 ## 🔄 게임 플로우
 
+%%{init: {'theme': 'default', 'flowchart': {'nodeSpacing': 30, 'rankSpacing': 40}}}%%
 ```mermaid
 flowchart TD
     A([앱 시작]) --> B

@@ -78,34 +78,25 @@ graph TB
 <br>
 
 ## 🔄 게임 플로우
-<div style="width: 40%">
-
 ```mermaid
+%%{init: {'theme': 'default', 'flowchart': {'nodeSpacing': 30, 'rankSpacing': 40}}}%%
 flowchart TD
     A([앱 시작]) --> B
-
     B["🔐 UGS 인증\n익명 로그인 · 유저 데이터 로드"]
     B --> C
-
     C["🌐 Photon 서버 연결\n마스터 서버 접속"]
     C --> D
-
     D["🏠 로비\n세션 목록 조회"]
     D -->|방 생성| E1["방장으로 세션 생성"]
     D -->|방 입장| E2["참가자로 세션 참여"]
-
     E1 --> F
     E2 --> F
-
     F["⏳ 대기실\n준비 완료 · 맵 선택"]
     F -->|방장이 시작| G
-
     G["🎮 게임 씬 로드\n전체 클라이언트 동시 스폰"]
     G --> H
-
     H(["🏁 결승선 도착\n완주 타임 기록 저장"])
 ```
-</div>
 <br>
 
 ## 👤 담당 역할

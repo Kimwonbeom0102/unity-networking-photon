@@ -79,7 +79,7 @@ graph TB
 
 ## 🔄 게임 플로우
 ```mermaid
-%%{init: {'flowchart': {'nodeSpacing': 30, 'rankSpacing': 40}}}%%
+%%{init: {'theme': 'black''flowchart': {'nodeSpacing': 30, 'rankSpacing': 40}}}%%
 flowchart TD
     A([앱 시작]) --> B
     B["🔐 UGS 인증\n익명 로그인 · 유저 데이터 로드"]
